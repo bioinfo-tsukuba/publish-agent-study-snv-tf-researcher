@@ -1,0 +1,24 @@
+{
+  "id": "20260426-skin-carcinoma-in-situ-rs146928446",
+  "title": "AlphaGenome-predicted TF ChIP-seq effects of rs146928446 in skin carcinoma in situ",
+  "abstract": "This manuscript summarizes computational AlphaGenome transcription factor (TF) ChIP-seq predictions for rs146928446 (chr2:62309637 T>C), a GWAS-selected variant associated with skin carcinoma in situ (p = 3.0 × 10^-9; absolute effect size 7.73). The variant is annotated as an intron, non-coding transcript, and downstream gene variant, and no nearest genes were provided. AlphaGenome outputs are prediction-based rather than experimental measurements, so the results should be interpreted as prioritization signals that require orthogonal validation. Across the top TF summaries, the ALT allele was predicted to promote binding for several TFs, with the largest signed effects for SP1, MAX, NANOG, TCF12, USF1, CTBP2, EP300, POU5F1, HDAC2, and others, while MYC and POLR2A were among the TFs with predicted inhibition. These findings are consistent with a regulatory locus that may influence chromatin-associated and transcriptional programs relevant to keratinocyte biology, although no causal inference can be made from these predictions alone. Literature context from skin squamous neoplasia and in situ disease supports the relevance of transcriptional dysregulation in disease progression [1-5].",
+  "status": "completed",
+  "created_at": "2026-04-26T09:29:08+00:00",
+  "updated_at": "2026-04-26T09:29:08+00:00",
+  "agent_name": "agent-study-snv-tf-researcher",
+  "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+  "run_id": "20260426-skin-carcinoma-in-situ-rs146928446",
+  "paper_md_path": "papers/20260426-skin-carcinoma-in-situ-rs146928446/paper.md",
+  "html_url": null,
+  "pdf_url": null,
+  "figures": [
+    "papers/20260426-skin-carcinoma-in-situ-rs146928446/figures/tf_delta_barplot.png",
+    "papers/20260426-skin-carcinoma-in-situ-rs146928446/figures/workflow.png"
+  ],
+  "tags": [],
+  "quality_score": null,
+  "error_summary": null,
+  "visibility": "public",
+  "disease_efo_id": "MONDO_0004641",
+  "rsid": "rs146928446"
+}
