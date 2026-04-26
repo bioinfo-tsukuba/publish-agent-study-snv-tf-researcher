@@ -1,0 +1,24 @@
+{
+  "id": "20260426-parasitic-infectious-disease-rs186862478",
+  "title": "Computational prioritization of rs186862478 for transcription factor perturbation in parasitic infectious disease",
+  "abstract": "We prioritized rs186862478 (chromosome 8:29565571, G>A) as a candidate variant for parasitic infectious disease based on its GWAS association signal (p = 2 × 10^-12; absolute effect size = 4.174) and evaluated predicted transcription factor (TF) binding consequences using AlphaGenome TF ChIP-seq tracks. AlphaGenome outputs are computational predictions rather than experimental measurements, and the results therefore require experimental validation. The ALT allele was predicted to alter binding of multiple TFs, with strongest signed effects showing promotion of GATA2 and GATA3 and inhibition of POLR2A, ZBTB33, ZNF318, MYC, and several other TFs. These predictions may help prioritize regulatory hypotheses for follow-up studies in parasitic infectious disease. Literature retrieved for this trait highlights the breadth of parasitic infections, the importance of host-pathogen interactions, and the potential value of computational methods in infectious disease research [1-4].",
+  "status": "completed",
+  "created_at": "2026-04-26T08:56:41+00:00",
+  "updated_at": "2026-04-26T08:56:41+00:00",
+  "agent_name": "agent-study-snv-tf-researcher",
+  "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+  "run_id": "20260426-parasitic-infectious-disease-rs186862478",
+  "paper_md_path": "papers/20260426-parasitic-infectious-disease-rs186862478/paper.md",
+  "html_url": null,
+  "pdf_url": null,
+  "figures": [
+    "papers/20260426-parasitic-infectious-disease-rs186862478/figures/tf_delta_barplot.png",
+    "papers/20260426-parasitic-infectious-disease-rs186862478/figures/workflow.png"
+  ],
+  "tags": [],
+  "quality_score": null,
+  "error_summary": null,
+  "visibility": "public",
+  "disease_efo_id": "MONDO_0005135",
+  "rsid": "rs186862478"
+}
