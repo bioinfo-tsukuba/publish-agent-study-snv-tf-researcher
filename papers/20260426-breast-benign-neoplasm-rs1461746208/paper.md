@@ -1,0 +1,83 @@
+# AlphaGenome-predicted TF perturbation landscape at rs1461746208 for breast benign neoplasm
+
+*Author: snv-tf-researcher*
+
+## Abstract
+
+Genome-wide association studies can nominate non-coding variants whose regulatory consequences are not immediately evident. Here, we interpreted the GWAS-selected SNV rs1461746208 (12:76372081 T>C), which was prioritized by effect size for breast benign neoplasm, using AlphaGenome transcription factor (TF) ChIP-seq predictions. Because AlphaGenome provides computational predictions rather than experimental measurements, the results should be viewed as hypothesis-generating and require experimental validation.
+
+The predicted allele substitution was associated with a mixed TF perturbation profile, with the strongest positive effect for ZBTB33 and notable predicted changes in GATA2, GATA3, CEBPB, BRF2, ZFX, USF2, POLR2A, MYC, and several additional TFs. The overall pattern suggests that this intronic/upstream/non-coding-transcript variant may alter regulatory protein occupancy across multiple contexts rather than acting through a single TF. The analysis also aligns with the run-level summary in `top_tf_effects.tsv`, which prioritizes TFs by predicted binding change. Given the non-coding location and the absence of a mapped nearest gene in the provided data, these predictions may help prioritize downstream mechanistic testing in breast-relevant systems.
+
+## Introduction
+
+Benign breast neoplasms are clinically relevant lesions within the broader spectrum of breast pathology, and prior literature in the provided list includes studies on benign breast tumors, risk assessment, and breast cancer-related biology. However, the present analysis is focused on a single GWAS-nominated SNV and its predicted transcriptional regulatory effects rather than on disease incidence or clinical outcomes [1-4].
+
+Non-coding GWAS variants are often interpreted through their effects on cis-regulatory elements and transcription factor occupancy. Computational models such as AlphaGenome can support this task by predicting allelic differences in TF ChIP-seq signal, but such outputs are not measurements and must be experimentally verified. In addition, a GWAS-selected variant may be in linkage disequilibrium with the true causal variant, so any mechanistic interpretation remains provisional. Prior studies in the provided list also underscore that breast cancer genetics can reflect complex, context-dependent regulatory signals, including locus-level effects and subtype-specific associations [5-9].
+
+## Methods
+
+We analyzed the candidate SNV rs1461746208 on chromosome 12 at position 76,372,081 (T>C), which was selected for breast benign neoplasm based on its reported effect size (absolute beta 6.652) and p value (1×10^-13). The provided consequence annotations were intron_variant, upstream_gene_variant, and non_coding_transcript_variant. No nearest genes were supplied.
+
+The analysis followed the run workflow summarized in the pipeline figure, which includes disease and association retrieval, effect-size ranking and SNV filtering, Ensembl VEP consequence annotation and REF allele checking, AlphaGenome TF ChIP-seq prediction, TF-level summarization, PubMed literature search, and manuscript synthesis (Figure 1). AlphaGenome TF ChIP-seq outputs were treated as computational predictions rather than experimental measurements. TF-level results were summarized using the provided `top_tf_effects.tsv` run output, which reports the number of supporting tracks, strongest signed delta, mean and median deltas, and the number of predicted promoted versus inhibited tracks for each TF.
+
+### Workflow
+
+![Figure 1](figures/workflow.png)
+
+**Figure 1.** Workflow for the SNV-to-TF interpretation pipeline. The figure summarizes disease/association retrieval, variant prioritization, sequence consequence annotation, AlphaGenome TF ChIP-seq prediction, TF ranking, literature search, and manuscript generation.
+
+## Results
+
+The AlphaGenome TF ChIP-seq predictions for rs1461746208 indicated a heterogeneous regulatory signature rather than uniform gain or loss of binding. Among the top TF-level summaries, ZBTB33 showed the strongest positive predicted effect, with a maximum signed delta of 21.0 across five tracks, while GATA2 showed a net inhibitory direction with a strongest delta of -8.0 across six tracks. GATA3 was predicted to be promoted, as were CEBPB, BRF2, ZFX, USF2, GTF2F1, POLR2A, MLLT1, CEBPG, SUPT5H, RBM22, MYC, and others, whereas FUS, ZNF592, BCLAF1, PRDM10, HNRNPL, ELF1, ZNF24, FOXA3, ZNF217, NFYB, AGO1, TCF12, GATAD2B, RBM17, and ZNF121 were predicted to be inhibited. The strongest single-track signals included ZBTB33 in K562, GATA2 in SK-N-SH, GATA3 in MCF-7, CEBPB in K562, and POLR2A in K562. This distribution is consistent with a variant that can alter binding across multiple TF families and cellular contexts rather than a single lineage-limited effect. The run-level prioritization is reflected in `top_tf_effects.tsv`, which records the same TF summary statistics used here.
+
+![Figure 2](figures/tf_delta_barplot.png)
+
+**Figure 2.** Top transcription factors at rs1461746208 ranked by absolute predicted ALT-versus-REF binding delta from AlphaGenome TF ChIP-seq tracks. Bars show the strongest signed delta per TF, with positive values indicating predicted promotion and negative values indicating predicted inhibition.
+
+### Top predicted TF effects
+
+The strongest predicted TF-level effects from the provided run summary were:
+
+- ZBTB33: promoted, strongest delta 21.0, 5 tracks
+- GATA2: inhibited, strongest delta -8.0, 6 tracks
+- GATA3: promoted, strongest delta 8.0, 4 tracks
+- CEBPB: promoted, strongest delta 7.5, 10 tracks
+- BRF2: promoted, strongest delta 7.0, 3 tracks
+- ZFX: promoted, strongest delta 7.0, 6 tracks
+- USF2: promoted, strongest delta 7.0, 9 tracks
+- FUS: inhibited, strongest delta -7.0, 1 track
+- GTF2F1: promoted, strongest delta 6.5, 2 tracks
+- POLR2A: promoted, strongest delta 6.0, 44 tracks
+
+Additional TFs with predicted inhibition included ZNF592, BCLAF1, PRDM10, HNRNPL, ELF1, ZNF24, FOXA3, ZNF217, NFYB, AGO1, TCF12, GATAD2B, RBM17, and ZNF121. The presence of both promoted and inhibited TFs suggests allele-specific remodeling of the local regulatory environment.
+
+## Discussion
+
+The rs1461746208 T>C substitution is predicted to influence multiple TF ChIP-seq signals, including ZBTB33, GATA family factors, CEBPB, BRF2, ZFX, USF2, POLR2A, and MYC. In a non-coding GWAS context, such a pattern suggests possible disruption or creation of regulatory grammar rather than an isolated effect on a single binding site. The prominence of POLR2A and MYC in the predicted output may be consistent with broad transcriptional regulatory involvement, but this interpretation remains computational and does not establish mechanism [10,11].
+
+The breast-related literature provided with this run spans benign lesions, screening/risk assessment, and breast cancer genetics, underscoring that breast phenotypes are influenced by layered biological and clinical factors [1-4,12-15]. Some cited studies also highlight that genetic architecture, imputation strategy, and locus-level regulatory analysis can materially affect variant interpretation in breast disease [5-9,16-18]. Within that broader context, the present AlphaGenome result prioritizes rs1461746208 as a candidate regulatory variant for follow-up. However, because AlphaGenome outputs are predictions rather than direct chromatin measurements, experimental validation is required to confirm whether the substitution alters TF occupancy or downstream gene regulation.
+
+## Limitations
+
+This analysis has several limitations. First, the candidate SNV was selected by effect size, and it may be in linkage disequilibrium with the true causal variant rather than being causal itself. Second, the predictions come from AlphaGenome TF ChIP-seq tracks and therefore represent computational outputs, not experimentally measured binding. Third, no nearest gene was provided in the input, limiting gene-level interpretation. Fourth, the provided literature list includes studies on breast cancer and benign breast disease, but no paper directly addresses rs1461746208, so the discussion is necessarily limited to general interpretive context rather than variant-specific prior evidence. Finally, no experimental validation was available here, so all mechanistic statements remain provisional and hypothesis-generating.
+
+## References
+
+1. Öztekin PS, Özdemir Ö, Yakıştıran S, Altıner S, Erel S, Aslan Yay F. Imaging Findings in Patients With Benign Adenomyoepithelioma: A Retrospective Analysis. Breast J. 2026;2026(1):e9666015. PMID: 42030079. doi:10.1155/tbj/9666015  
+2. Mendoza GW, Muñoz N, Aguilar J, Ayón J, Díaz-Llontop D, Mendoza S, et al. Predictive value of elastography (Shear-Wave and Elasticity Index) in differentiating benign from malignant breast lesions: a retrospective study in Peru. Radiol Oncol. 2026. PMID: 42030078. doi:10.2478/raon-2026-0018  
+3. Horton R, Hindmarch S, Howell SJ, Usher-Smith JA, Gorman L, Evans DG, et al. Acceptability of breast cancer risk assessment amongst general population women aged 30-39 years: A qualitative study. Women’s Health (Lond). 2026;22:17455057261435107. PMID: 42028827. doi:10.1177/17455057261435107  
+4. Shrestha O, Baral R, Tiwari A. Utility of Micronucleus Study on Breast Cytology Smears. Kathmandu Univ Med J (KUMJ). 2025;23(91):343-346. PMID: 42028769.  
+5. Chen J, Yang X, Huang T, Zhou H. Evaluating the causal role of LEPR signaling in 16 cancers: A drug-target Mendelian randomization study. Medicine. 2026;105(15):e48181. PMID: 41961674. doi:10.1097/MD.0000000000048181  
+6. Luo T, Xue M, Du Y, Chen H, Sun Y, Sun H. The Mechanism of Gut Microbiota in Breast Cancer Based on the Bulk Transcriptome, Mendelian Randomization Analysis and Single Cell RNA Sequencing. MicrobiologyOpen. 2026;15(2):e70284. PMID: 41960682. doi:10.1002/mbo3.70284  
+7. Lau PK, Kwong BLT, Lee SH, Lim CL, Woo QY, Woo ARE, et al. Ligand-Dependent and -Independent Functions of Activation Function 1 of Progesterone Receptor in Genome-Wide Gene Regulation and in Cell Proliferation and Apoptosis of Breast Cancer Cells. Int J Mol Sci. 2026;27(6). PMID: 41898775. doi:10.3390/ijms27062916  
+8. Debnath D, Housini M, Sariya S, Phillips NR, Pathak GA, Barber RC. Locus- and Gene-Level Insights into the Inverse Association Between Alzheimer's Disease and Cancer. Int J Mol Sci. 2026;27(6). PMID: 41898760. doi:10.3390/ijms27062900  
+9. Chang X, Mariapun S, Li M, Wang L, Ho PJ, Khng AJ, et al. A reanalysis of a genome-wide association study on breast cancer in Asian populations using the SG10K_Health reference panel for imputation: a multi-Centre case-control analysis. Hum Mol Genet. 2026;35(6). PMID: 41871294. doi:10.1093/hmg/ddag015  
+10. Li S, Wang Z, Nguyen P, Wang Y, Zhao Y, Wang Y, et al. MYC-bound enhancer RNAs in cis regulate gene transcription and tumorigenesis. Sci Adv. 2026;12(17):eaeb5147. PMID: 42030388. doi:10.1126/sciadv.aeb5147  
+11. Jayasinghe GJMSR, Zhu G, Pandeya N, Olsen CM, Martin NG, Lind PA, et al. A large-scale genome-wide association meta-analysis for nevus count provides direct insights into the genetics of melanoma. Nat Commun. 2026;17(1). PMID: 41807453. doi:10.1038/s41467-026-70368-5  
+12. Wang X, Zhang Y, Yang Q, Yang L, Wang Y, Zeng X, et al. Impact of Underlying Liver Disease on the Risk and Prognostic Factors of Breast Cancer Liver Metastases: A Retrospective Multicenter Cohort Study. Cancer Med. 2026;15(5):e71761. PMID: 42032971. doi:10.1002/cam4.71761  
+13. Rakez M, Guillaumin J, Chick A, Coureau G, Chamming's F, Fillard P, et al. The DeepJoint Algorithm: An Innovative Approach for Studying the Longitudinal Evolution of Quantitative Mammographic Density and Its Association With Screen-Detected Breast Cancer Risk. Biometrical J. 2026;68(3):e70135. PMID: 42032926. doi:10.1002/bimj.70135  
+14. Alexandrino KALG, de Aquino AMI, de Melo SD, de Andrade César MB, Motta AR, Weller M, et al. Effects of transcranial direct current stimulation on cognition, depression, and brain activity in a breast-cancer survivor: a case report. J Med Case Rep. 2026. PMID: 42032764. doi:10.1186/s13256-026-06061-4  
+15. Rodrigues APS, Cooper AJ, Llanos AAM, Fleming K, Pittman S, Peña A, et al. Feasibility and acceptability of a stress-management behavioral weight loss intervention for Black breast cancer survivors. Sci Rep. 2026. PMID: 42031831. doi:10.1038/s41598-026-49330-4  
+16. Zeng C, Zhu J, Zhen X, Mao Y, Wei Z, Zhen Z. Causal relationship between renin-angiotensin system inhibitors and cancer: a two-sample, two-step Mendelian randomization study. Chin Clin Oncol. 2026;15(1):4. PMID: 41797472. doi:10.21037/cco-2025-aw-131  
+17. Zhu Y, Zheng S, Shao Y, Zhou J, Gu X, Shen L, et al. Fragmentomic liquid biopsy enables early breast cancer detection, molecular subtyping and lymph node assessment. Nat Commun. 2026;17(1). PMID: 41792156. doi:10.1038/s41467-026-70204-w  
+18. Bu R, Iqbal K, Parvathareddy SK, Azam S, Qadri Z, Abdul Razzaq EA, et al. Exome-Wide Association Analysis Identifies Rare Germline Susceptibility Variants in Early-Onset Breast Cancer Among Saudi Women. Int J Mol Sci. 2026;27(4). PMID: 41751868. doi:10.3390/ijms27041732
