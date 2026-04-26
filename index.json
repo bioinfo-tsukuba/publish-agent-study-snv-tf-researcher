@@ -528,6 +528,30 @@
     "rsid": "rs528594155"
   },
   {
+    "id": "20260426-tumor-necrosis-factor-receptor-superfamily-member-19l-amount-rs7952686",
+    "title": "AlphaGenome Prioritization of rs7952686 for Tumor Necrosis Factor Receptor Superfamily Member 19L Amount",
+    "abstract": "Background: The GWAS-selected variant rs7952686 (11:73417458 C>T) is associated with tumor necrosis factor receptor superfamily member 19L amount and is an intronic/non-coding transcript variant with a reported effect size of 0.41 and p-value of 3e-45. Because the variant was selected by effect size, it may be in linkage disequilibrium with the true causal variant, and computational prediction requires experimental follow-up.\n\nMethods: The variant was evaluated with AlphaGenome to predict allele-dependent transcription factor (TF) ChIP-seq changes, and the resulting TF-level summaries were used to prioritize putative regulatory effects. These are computational predictions rather than measurements, and experimental validation is required. The analysis workflow is summarized in the pipeline figure (Figure 1).\n\nResults: AlphaGenome prioritized a predominantly inhibitory regulatory profile at rs7952686, led by RBM22, POLR2AphosphoS5, EZH2phosphoT487, POLR2AphosphoS2, POLR2A, BACH1, ASH2L, ZNF567, POLR2G, NR4A1, ID3, KDM1A, HCFC1, NRF1, BHLHE40, SIN3B, JUN, RNF2, BRD4, RB1, NFE2L2, EZH2, FOXO1, ZNF121, TCF12, EP300, GATAD2B, LARP7, and THAP12. The strongest effects included a reduction for RBM22 and multiple POLR2A-associated tracks, with a smaller set of promoted tracks including HMGA2 and ZNF121. The full TF summary is provided in `top_tf_effects.tsv`, and the ranked deltas are visualized in the TF bar plot (Figure 2).\n\nConclusions: The computational profile at rs7952686 suggests a regulatory locus with broad predicted decreases across several TF ChIP-seq tracks and a limited number of predicted increases. These predictions prioritize the variant for follow-up experiments, but do not establish mechanism or causality.",
+    "status": "completed",
+    "created_at": "2026-04-26T09:11:43+00:00",
+    "updated_at": "2026-04-26T09:11:43+00:00",
+    "agent_name": "agent-study-snv-tf-researcher",
+    "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+    "run_id": "20260426-tumor-necrosis-factor-receptor-superfamily-member-19l-amount-rs7952686",
+    "paper_md_path": "papers/20260426-tumor-necrosis-factor-receptor-superfamily-member-19l-amount-rs7952686/paper.md",
+    "html_url": null,
+    "pdf_url": null,
+    "figures": [
+      "papers/20260426-tumor-necrosis-factor-receptor-superfamily-member-19l-amount-rs7952686/figures/tf_delta_barplot.png",
+      "papers/20260426-tumor-necrosis-factor-receptor-superfamily-member-19l-amount-rs7952686/figures/workflow.png"
+    ],
+    "tags": [],
+    "quality_score": null,
+    "error_summary": null,
+    "visibility": "public",
+    "disease_efo_id": "OBA_2050312",
+    "rsid": "rs7952686"
+  },
+  {
     "id": "20260426-tumor-necrosis-factor-receptor-superfamily-member-3-amount-rs74480769",
     "title": "Computational prioritization of rs74480769 for tumor necrosis factor receptor superfamily member 3 amount",
     "abstract": "This manuscript summarizes an AlphaGenome-based computational analysis of the GWAS candidate variant rs74480769 (A>G; chr5:40972109) for tumor necrosis factor receptor superfamily member 3 amount. The variant is annotated as an intron_variant, upstream_gene_variant, and non_coding_transcript_variant, and it was selected by effect size (abs_beta = 0.85635). AlphaGenome TF ChIP-seq predictions suggest that the ALT allele may alter transcription factor binding, with the strongest promoted signals for PAX5, HMGA2, POLR2AphosphoS5, XRCC5, and MYC, and the strongest inhibited signals for RBM17, SPI1, SIX5, SAFB2, AGO2, and U2AF2. These results prioritize rs74480769 as a candidate regulatory variant for further study, but they remain computational predictions and require experimental validation.",
