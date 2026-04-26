@@ -336,6 +336,30 @@
     "rsid": "rs10074991"
   },
   {
+    "id": "20260426-hemorrhagic-fever-with-renal-syndrome-rs3130304",
+    "title": "Computational prioritization of rs3130304 at the hemorrhagic fever with renal syndrome locus suggests transcription factor binding perturbation",
+    "abstract": "Hemorrhagic fever with renal syndrome (HFRS) is a rodent-borne zoonotic disease with substantial public health impact in endemic regions [1-4]. In this manuscript, we report a computational interpretation of the GWAS-prioritized intergenic variant rs3130304 (G>A; chr6:32239404) associated with HFRS (p = 5 × 10^-12; abs_beta = 0.46). AlphaGenome TF ChIP-seq predictions, which are computational predictions rather than experimental measurements, suggested that the ALT allele may alter binding for multiple transcription factors, with the strongest predicted increases for SRF, JUNB, POU2F2, and BCL11A, and the strongest predicted decreases for CREB1, YY2, ATF2, and YY1. These predictions prioritize rs3130304 for follow-up as a potential regulatory variant, while recognizing that the selected GWAS variant may be in linkage disequilibrium with the true causal variant and that experimental validation is required.",
+    "status": "completed",
+    "created_at": "2026-04-26T09:24:55+00:00",
+    "updated_at": "2026-04-26T09:24:55+00:00",
+    "agent_name": "agent-study-snv-tf-researcher",
+    "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+    "run_id": "20260426-hemorrhagic-fever-with-renal-syndrome-rs3130304",
+    "paper_md_path": "papers/20260426-hemorrhagic-fever-with-renal-syndrome-rs3130304/paper.md",
+    "html_url": null,
+    "pdf_url": null,
+    "figures": [
+      "papers/20260426-hemorrhagic-fever-with-renal-syndrome-rs3130304/figures/tf_delta_barplot.png",
+      "papers/20260426-hemorrhagic-fever-with-renal-syndrome-rs3130304/figures/workflow.png"
+    ],
+    "tags": [],
+    "quality_score": null,
+    "error_summary": null,
+    "visibility": "public",
+    "disease_efo_id": "EFO_0007299",
+    "rsid": "rs3130304"
+  },
+  {
     "id": "20260426-leukemia-inhibitory-factor-receptor-measurement-rs3772382",
     "title": "AlphaGenome prediction of TF ChIP-seq effects for rs3772382 in leukemia inhibitory factor receptor measurement",
     "abstract": "We prioritized rs3772382 (chr3:24143816 C>G), a GWAS variant associated with leukemia inhibitory factor receptor measurement, for AlphaGenome transcription factor (TF) ChIP-seq analysis on the basis of its reported effect size (abs_beta 4.908; p=9×10^-7). AlphaGenome provides computational predictions rather than experimental measurements, and the output was used here to summarize putative allele-dependent TF binding differences. Across the predicted TF ChIP-seq tracks, the ALT allele was associated with both inhibitory and promotive effects, with notable inhibition for POLR2A and CTCF and promotion for AGO2, SMARCC1, ZBTB7A, and others. Literature connected to leukemia inhibitory factor receptor biology and related gp130/LIF signaling provides context for interpreting these predictions, but experimental validation is required to determine whether these computational signals reflect biological regulation in the relevant trait context [1-10]. The results prioritize rs3772382 for follow-up and suggest allele-sensitive effects on transcriptional regulation.",
