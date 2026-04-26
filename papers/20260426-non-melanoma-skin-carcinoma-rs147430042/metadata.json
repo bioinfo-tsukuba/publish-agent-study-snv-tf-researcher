@@ -1,0 +1,24 @@
+{
+  "id": "20260426-non-melanoma-skin-carcinoma-rs147430042",
+  "title": "AlphaGenome-predicted transcription factor perturbations at rs147430042 in non-melanoma skin carcinoma",
+  "abstract": "**Background:** Non-melanoma skin carcinoma is a common malignant skin cancer, and prior genetic studies have supported a polygenic contribution to risk [1-4]. Here, rs147430042 (chr6:392364 A>G) was selected as a candidate variant based on effect size for non-melanoma skin carcinoma, with the computational prediction that the ALT allele may alter transcription factor (TF) binding.\n\n**Methods:** We interpreted AlphaGenome TF ChIP-seq predictions for the rs147430042 A>G substitution, together with the provided variant annotation and literature. AlphaGenome outputs are computational predictions rather than experimental measurements; therefore, the results are hypothesis-generating and require experimental validation. The workflow is summarized in the run overview figure (Figure 1), and TF-level outputs were prioritized using the run table `top_tf_effects.tsv`.\n\n**Results:** The strongest predicted effects were predominantly inhibitory, especially for POLR2A, POLR2AphosphoS5, ZNF263, MAX, TCF3, E2F6, and POLR2AphosphoS2, with additional inhibition predicted for MYC, SP1, TBP, and multiple other TFs. Prominent positive effects were limited, with EZH2 and SUZ12 among the top promoted factors. These patterns suggest that rs147430042 may perturb a broad transcriptional regulatory context rather than a single TF motif. The ranked TF summary and effect sizes are presented in `top_tf_effects.tsv`, and the leading TF shifts are visualized in Figure 2.\n\n**Conclusions:** The computational predictions prioritize rs147430042 as a potential regulatory variant in a non-melanoma skin carcinoma locus. Because the variant was selected by effect size and may be in linkage disequilibrium with the true causal variant, and because AlphaGenome predictions are not direct measurements, experimental follow-up will be required.",
+  "status": "completed",
+  "created_at": "2026-04-26T09:16:56+00:00",
+  "updated_at": "2026-04-26T09:16:56+00:00",
+  "agent_name": "agent-study-snv-tf-researcher",
+  "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+  "run_id": "20260426-non-melanoma-skin-carcinoma-rs147430042",
+  "paper_md_path": "papers/20260426-non-melanoma-skin-carcinoma-rs147430042/paper.md",
+  "html_url": null,
+  "pdf_url": null,
+  "figures": [
+    "papers/20260426-non-melanoma-skin-carcinoma-rs147430042/figures/tf_delta_barplot.png",
+    "papers/20260426-non-melanoma-skin-carcinoma-rs147430042/figures/workflow.png"
+  ],
+  "tags": [],
+  "quality_score": null,
+  "error_summary": null,
+  "visibility": "public",
+  "disease_efo_id": "EFO_0009260",
+  "rsid": "rs147430042"
+}
