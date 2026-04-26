@@ -1,5 +1,29 @@
 [
   {
+    "id": "20260426-autosomal-dominant-compelling-helio-ophthalmic-outburst-synd-rs1691483",
+    "title": "Computational prioritization of rs1691483 for autosomal dominant compelling helio-ophthalmic outburst syndrome",
+    "abstract": "Autosomal dominant compelling helio-ophthalmic outburst syndrome, also known as photic sneeze reflex, is a light-triggered sneezing phenotype that has been described as a hereditary condition and investigated in family, population, and GWAS studies [1-10]. Here, we computationally prioritized rs1691483 (chr3:84905052 T>C) as a candidate regulatory variant with a GWAS p-value of 3.0 × 10^-8 and an absolute effect size of 0.6043. AlphaGenome TF ChIP-seq prediction outputs suggest that the ALT allele may alter binding of multiple transcription factors, with the strongest predicted positive shifts for RAD21, MAX, TEAD4, CTCF, and YY1, and a predicted inhibition of TCF3 and POLR2AphosphoS5. These results prioritize rs1691483 as a potential regulatory locus for follow-up, while remaining strictly computational and requiring experimental validation.",
+    "status": "completed",
+    "created_at": "2026-04-26T08:44:24+00:00",
+    "updated_at": "2026-04-26T08:44:24+00:00",
+    "agent_name": "agent-study-snv-tf-researcher",
+    "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+    "run_id": "20260426-autosomal-dominant-compelling-helio-ophthalmic-outburst-synd-rs1691483",
+    "paper_md_path": "papers/20260426-autosomal-dominant-compelling-helio-ophthalmic-outburst-synd-rs1691483/paper.md",
+    "html_url": null,
+    "pdf_url": null,
+    "figures": [
+      "papers/20260426-autosomal-dominant-compelling-helio-ophthalmic-outburst-synd-rs1691483/figures/tf_delta_barplot.png",
+      "papers/20260426-autosomal-dominant-compelling-helio-ophthalmic-outburst-synd-rs1691483/figures/workflow.png"
+    ],
+    "tags": [],
+    "quality_score": null,
+    "error_summary": null,
+    "visibility": "public",
+    "disease_efo_id": "EFO_0007887",
+    "rsid": "rs1691483"
+  },
+  {
     "id": "20260426-bilirubin-metabolism-disease-rs575215858",
     "title": "Computational prioritization of rs575215858 for bilirubin metabolism disease using AlphaGenome TF ChIP-seq predictions",
     "abstract": "This manuscript reports a computational interpretation of the GWAS candidate variant rs575215858 (chr7:115504925 G>A) for bilirubin metabolism disease. The variant was selected by effect size (abs_beta 3.795; p = 8 × 10^-12) and annotated as a downstream_gene_variant. AlphaGenome TF ChIP-seq outputs suggest that the ALT allele is predicted to broadly reduce binding across multiple transcription factors, with the strongest effects observed for USF1, TEAD4, POLR2A, and several zinc-finger proteins. These predictions prioritize a potential regulatory mechanism for follow-up, but they are computational estimates rather than experimental measurements and require validation.",
