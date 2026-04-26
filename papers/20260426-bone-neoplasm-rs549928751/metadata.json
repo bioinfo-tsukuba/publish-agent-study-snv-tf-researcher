@@ -1,0 +1,24 @@
+{
+  "id": "20260426-bone-neoplasm-rs549928751",
+  "title": "Computational prioritization of rs549928751 as a putative transcription-factor regulatory variant in bone neoplasm",
+  "abstract": "We analyzed rs549928751 (2:141231758 C>T), an intronic GWAS candidate associated with bone neoplasm, using AlphaGenome transcription factor (TF) ChIP-seq prediction outputs. The variant had a reported effect size of 2.967 and p value of 3 × 10^-11. Computational TF profiling prioritized a predominantly inhibitory regulatory signature, with the strongest predicted decreases for ZNF148 and EGR2 (each strongest delta -7.0), followed by broad negative effects across several TFs including TCF12, REST, TEAD4, SIN3A, EGR1, CTCF, SRF, CHD2, GATA3, POLR2A, MYC, and YY1. A smaller set of TFs showed predicted increases, including HMGA1, POLR2AphosphoS5, MAX, TFDP1, SP1, JUND, FOXA1, and PBX3. These results suggest that rs549928751 may alter local regulatory grammar in a way that could prioritize TFs relevant to transcriptional control, but the outputs are computational predictions rather than experimental measurements. Experimental validation is required.",
+  "status": "completed",
+  "created_at": "2026-04-26T08:50:38+00:00",
+  "updated_at": "2026-04-26T08:50:38+00:00",
+  "agent_name": "agent-study-snv-tf-researcher",
+  "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+  "run_id": "20260426-bone-neoplasm-rs549928751",
+  "paper_md_path": "papers/20260426-bone-neoplasm-rs549928751/paper.md",
+  "html_url": null,
+  "pdf_url": null,
+  "figures": [
+    "papers/20260426-bone-neoplasm-rs549928751/figures/tf_delta_barplot.png",
+    "papers/20260426-bone-neoplasm-rs549928751/figures/workflow.png"
+  ],
+  "tags": [],
+  "quality_score": null,
+  "error_summary": null,
+  "visibility": "public",
+  "disease_efo_id": "MONDO_0019060",
+  "rsid": "rs549928751"
+}
