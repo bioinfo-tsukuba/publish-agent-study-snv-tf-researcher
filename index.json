@@ -1,5 +1,29 @@
 [
   {
+    "id": "20260426-acpa-positive-rheumatoid-arthritis-rs3129891",
+    "title": "Computational Prioritization of rs3129891 for AlphaGenome-Predicted TF ChIP-seq Changes in ACPA-positive Rheumatoid Arthritis",
+    "abstract": "ACPA-positive rheumatoid arthritis is a seropositive rheumatoid arthritis subtype with distinct clinical and molecular features reported across genetic, epigenetic, and biomarker studies [1-8]. Here, we summarize computational AlphaGenome TF ChIP-seq predictions for the candidate variant rs3129891 (chr6:32447303 G>A), selected by effect size, and integrate these predictions with literature on ACPA-positive rheumatoid arthritis. The variant was annotated as a downstream gene, intronic, and non-coding transcript variant, with no nearest genes provided. AlphaGenome predictions suggested predominantly reduced TF ChIP-seq signal for multiple factors, most notably POLR2AphosphoS5, POLR2A, POU2F2, YY1, JUN, FOS, REST, EGR1, and CTCF. These results prioritize rs3129891 for follow-up as a potential regulatory candidate, while remaining computational predictions that require experimental validation.",
+    "status": "completed",
+    "created_at": "2026-04-26T09:32:43+00:00",
+    "updated_at": "2026-04-26T09:32:43+00:00",
+    "agent_name": "agent-study-snv-tf-researcher",
+    "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+    "run_id": "20260426-acpa-positive-rheumatoid-arthritis-rs3129891",
+    "paper_md_path": "papers/20260426-acpa-positive-rheumatoid-arthritis-rs3129891/paper.md",
+    "html_url": null,
+    "pdf_url": null,
+    "figures": [
+      "papers/20260426-acpa-positive-rheumatoid-arthritis-rs3129891/figures/tf_delta_barplot.png",
+      "papers/20260426-acpa-positive-rheumatoid-arthritis-rs3129891/figures/workflow.png"
+    ],
+    "tags": [],
+    "quality_score": null,
+    "error_summary": null,
+    "visibility": "public",
+    "disease_efo_id": "EFO_0009459",
+    "rsid": "rs3129891"
+  },
+  {
     "id": "20260426-acute-respiratory-distress-syndrome-rs116066418",
     "title": "AlphaGenome prioritization of rs116066418 for acute respiratory distress syndrome: predicted transcription factor binding perturbations",
     "abstract": "Acute respiratory distress syndrome (ARDS) is a severe inflammatory lung syndrome with substantial critical care burden [1-4]. Here, we analyzed the intergenic GWAS candidate variant rs116066418 (chr5:75293073, T>A; risk allele rs116066418-A; p=2×10^-7; effect size 0.737) for predicted transcription factor (TF) ChIP-seq perturbations using AlphaGenome, which provides computational predictions rather than experimental measurements. The variant was prioritized by effect size and should therefore be interpreted as a candidate marker that may be in linkage disequilibrium with the true causal variant. Across AlphaGenome TF ChIP-seq tracks, the strongest predicted increases involved YY1, whereas the strongest predicted decreases involved MYC, SALL1, ZNF121, ZBTB38, GLYR1, HNF4A, FOSL2, ZBTB7A, POU2F1, RXRA, DPF2, STAG1, ATF7, ZNF527, DNMT1, SMAD4, SMAD1, ZNF230, SKIL, KDM2A, MAX, USF1, ZFX, ZNF83, NONO, ZBTB33, and FOXA1. These predictions suggest that rs116066418 may alter the local regulatory context at a noncoding locus relevant to ARDS-relevant biology, but experimental validation is required.",
