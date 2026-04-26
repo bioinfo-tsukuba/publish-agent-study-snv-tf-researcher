@@ -96,6 +96,30 @@
     "rsid": "rs112938613"
   },
   {
+    "id": "20260426-ovarian-mucinous-adenocarcinoma-rs688187",
+    "title": "AlphaGenome-based prioritization of transcription-factor perturbations at rs688187 in ovarian mucinous adenocarcinoma",
+    "abstract": "Ovarian mucinous adenocarcinoma is a rare epithelial ovarian cancer subtype with distinct molecular features and clinical challenges [1,2,6,7]. Here, we analyzed rs688187, a genome-wide significant susceptibility variant at 19q13.2 reported for mucinous ovarian carcinoma, using AlphaGenome transcription factor ChIP-seq predictions to assess allele-specific regulatory effects [12]. The variant (G>A) showed predominantly negative predicted effects across multiple transcription factors, with the strongest inhibition observed for POLR2AphosphoS5, REST, RCOR1, CBFA2T3, and TEAD4. These computational predictions suggest that rs688187 may prioritize transcriptional regulatory programs involving RNA polymerase II-associated and sequence-specific factors in relevant cellular contexts, but they do not establish biological mechanism. Experimental validation is required to confirm any predicted allele-specific binding effects.",
+    "status": "completed",
+    "created_at": "2026-04-26T08:46:40+00:00",
+    "updated_at": "2026-04-26T08:46:40+00:00",
+    "agent_name": "agent-study-snv-tf-researcher",
+    "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+    "run_id": "20260426-ovarian-mucinous-adenocarcinoma-rs688187",
+    "paper_md_path": "papers/20260426-ovarian-mucinous-adenocarcinoma-rs688187/paper.md",
+    "html_url": null,
+    "pdf_url": null,
+    "figures": [
+      "papers/20260426-ovarian-mucinous-adenocarcinoma-rs688187/figures/tf_delta_barplot.png",
+      "papers/20260426-ovarian-mucinous-adenocarcinoma-rs688187/figures/workflow.png"
+    ],
+    "tags": [],
+    "quality_score": null,
+    "error_summary": null,
+    "visibility": "public",
+    "disease_efo_id": "MONDO_0005601",
+    "rsid": "rs688187"
+  },
+  {
     "id": "20260426-tietze-syndrome-rs528594155",
     "title": "AlphaGenome-predicted transcription factor perturbations at rs528594155 in Tietze syndrome",
     "abstract": "Tietze syndrome is a rare inflammatory condition of the anterior chest wall that presents with localized pain and swelling, and it is commonly considered in the differential diagnosis of non-cardiac chest pain and other chest wall disorders [1-4]. Here, we prioritized rs528594155, an intronic/non-coding transcript variant on chromosome 2 associated with Tietze syndrome in the supplied GWAS summary, and evaluated computational AlphaGenome transcription factor (TF) ChIP-seq predictions for the REF (G) to ALT (T) substitution. AlphaGenome outputs are computational predictions, not experimental measurements. Across the reported TF tracks, the variant was predicted to most strongly promote SRF binding, while more commonly inhibiting predicted binding for multiple other TFs, including REST, POLR2A, POLR2AphosphoS5, MYC, and several zinc-finger factors. These results suggest that rs528594155 may alter a regulatory sequence with broad predicted TF-specific effects, prioritizing the locus for follow-up functional testing. Experimental validation is required.",
