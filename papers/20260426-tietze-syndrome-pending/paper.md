@@ -1,0 +1,69 @@
+# Computational prioritization of rs528594155 for Tietze syndrome using AlphaGenome TF ChIP-seq predictions
+
+*Author: snv-tf-researcher*
+
+## Abstract
+
+Tietze syndrome is a rare inflammatory chest wall condition that is described clinically in case reports and reviews as a cause of localized anterior chest pain and swelling [1-6]. Here, we present a computational interpretation of the GWAS-selected intronic variant rs528594155 (chr2:67253105 G>T), which was prioritized by effect size for Tietze syndrome and is therefore not assumed to be the causal variant. AlphaGenome TF ChIP-seq predictions suggested a predominantly inhibitory impact on several transcription factors, with the strongest predicted positive effect for SRF and the strongest inhibitory effects for REST, POLR2A, ZBTB33, and MYC. Because AlphaGenome outputs are computational predictions rather than experimental measurements, these results should be viewed as hypothesis-generating and require experimental validation. Overall, the predicted transcription-factor perturbation profile is consistent with regulatory consequences at a non-coding locus and may help prioritize follow-up studies in Tietze syndrome.
+
+## Introduction
+
+Tietze syndrome has been described as a benign, self-limiting entity with tender swelling involving the upper anterior chest wall, particularly at the costosternal or sternoclavicular region, and it can mimic other causes of chest pain [1,4,6]. Reviews and case reports also note that it remains an important differential diagnosis in musculoskeletal and non-ischemic chest pain presentations [2,3,5,6]. Radiologic and clinical discussions further indicate that Tietze syndrome is part of a broader set of thoracic wall disorders in which multimodal evaluation may be required to reach a final diagnosis [2,5].
+
+Non-coding GWAS variants can be used to nominate regulatory hypotheses, but interpretation depends on computational prioritization and downstream validation. In this study, we evaluated rs528594155, an intronic/non-coding transcript variant associated with Tietze syndrome in the provided dataset, using AlphaGenome TF ChIP-seq predictions and literature-based context. The variant was selected by effect size, so linkage disequilibrium with the true causal variant remains a key caveat.
+
+## Methods
+
+### Variant selection and annotation
+
+We analyzed rs528594155 (chr2:67253105 G>T) for Tietze syndrome. The variant was annotated in the provided dataset as an intron variant and non-coding transcript variant, with no nearest gene reported. The reported GWAS p-value was 3.0 × 10^-13 and the absolute beta effect size was 3.857.
+
+### AlphaGenome TF ChIP-seq prediction summary
+
+AlphaGenome TF ChIP-seq outputs were used to compare the predicted ALT allele with the REF allele across transcription factor tracks. These are computational predictions, not direct measurements of binding or occupancy. We summarized the top predicted transcription-factor effects using the provided `top_tf_effects.tsv` run output and focused on the transcription factors with the largest absolute predicted deltas.
+
+### Workflow
+
+The end-to-end analysis pipeline included disease and association retrieval, effect-size ranking and SNV filtering, Ensembl VEP consequence annotation and REF allele check, AlphaGenome TF ChIP-seq prediction, TF-level summarization, PubMed literature search, and AI-assisted manuscript synthesis (Figure 1).
+
+![Figure 1](figures/workflow.png)
+
+**Figure 1.** Workflow overview of the snv-tf-researcher pipeline used for this run. The figure summarizes the computational steps from GWAS-derived variant selection through AlphaGenome TF ChIP-seq prediction, literature retrieval, and manuscript assembly.
+
+## Results
+
+The variant rs528594155 was prioritized for Tietze syndrome on the basis of effect size and was annotated as a non-coding intronic locus. Because no nearest gene was provided, the result is best interpreted as a regulatory hypothesis centered on the variant itself rather than on a specific nearby gene.
+
+Across the top predicted transcription factors, SRF showed the strongest positive effect, with ALT allele substitution predicted to promote binding across 8 tracks and a strongest delta of +22.0 in Ishikawa cells. In contrast, multiple factors showed negative predicted effects, including REST, POLR2A, ZBTB33, MYC, and others. Among these, REST had a strongest delta of -7.5, POLR2A had -7.0, ZBTB33 had -7.0, and MYC had -7.0. The overall pattern therefore suggests a mixed regulatory shift dominated by inhibition of many TF ChIP-seq tracks, alongside a marked SRF-promoting signal. These summarized effects are reported in `top_tf_effects.tsv` and are visualized in the TF effect plot (Figure 2).
+
+![Figure 2](figures/tf_delta_barplot.png)
+
+**Figure 2.** Top transcription factors predicted to change at rs528594155 by AlphaGenome TF ChIP-seq. Bars show the strongest signed ALT-vs-REF delta per transcription factor; positive values indicate predicted promotion and negative values indicate predicted inhibition.
+
+### Top predicted transcription-factor effects
+
+The strongest predicted effects were as follows: SRF was predicted to be promoted (8 tracks, strongest delta +22.0); REST was predicted to be inhibited (17 tracks, strongest delta -7.5); POLR2A was predicted to be inhibited (44 tracks, strongest delta -7.0); ZBTB33 was predicted to be inhibited (5 tracks, strongest delta -7.0); MYC was predicted to be inhibited (8 tracks, strongest delta -7.0); and NFYB was predicted to be promoted (4 tracks, strongest delta +6.5). Additional inhibited factors included ZNF572, ZNF83, ZNF7, ZNF318, POLR2AphosphoS5, USF1, EGR1, YY1, MAX, and several others. These predictions provide a ranked shortlist of TFs for follow-up experimental testing.
+
+## Discussion
+
+The predicted TF perturbation profile at rs528594155 suggests that this non-coding variant may alter regulatory activity rather than protein sequence. The strong SRF-promotion signal is notable because the locus also showed inhibitory predictions for several broad transcriptional regulators, including POLR2A and MYC. However, these AlphaGenome results are computational and do not establish physical binding changes or downstream biological effects; experimental assays are required to confirm whether the predictions reflect true regulatory differences.
+
+The clinical literature indicates that Tietze syndrome is an anterior chest wall disorder that can resemble other musculoskeletal, inflammatory, infectious, or malignant conditions, and careful differential diagnosis is often necessary [1-6]. In that context, a non-coding regulatory signal at rs528594155 may help prioritize mechanistic hypotheses relevant to disease biology, but the present data do not identify a pathway or tissue-specific mechanism. The association should therefore be treated as a hypothesis-generating result rather than evidence of causality.
+
+## Limitations
+
+This analysis has several limitations. First, the variant was selected by effect size and may be in linkage disequilibrium with the true causal variant, so rs528594155 may be a proxy rather than the biologically causal locus. Second, AlphaGenome TF ChIP-seq results are predictions, not experimental measurements, and they require validation in appropriate assays. Third, the dataset provided no nearest-gene annotation or disease-specific functional tissue context, which limits biological interpretation. Fourth, the available literature in this run concerns clinical descriptions of Tietze syndrome and related chest wall disorders, not direct molecular studies of rs528594155 or its locus.
+
+## References
+
+1. Kuridze N, Okuashvili I, Tsverava M, Minadze E. Tietze Syndrome as a Cause of Chest Pain in the Post-COVID-19 Period. Cureus. 2023;15(4):e37360. PMID: 37182083. doi:10.7759/cureus.37360
+
+2. La Rosa G, Adorna M, Mauro LA, Pennisi M, Musumeci AG, Sigona A, et al. A pictorial essay of thoracic wall diseases: multiple pathologies in the same anatomical site. Insights Imaging. 2025;16(1):200. PMID: 40975755. doi:10.1186/s13244-025-02073-8
+
+3. Matsuki Y, Nakamura T. Spondyloarthritis and Tietze's syndrome: A re-evaluation. Mod Rheumatol. 2024;35(1):1-6. PMID: 39271145. doi:10.1093/mr/roae086
+
+4. Alphonse B, Elien M, Jean-Jacques W, Ovil R. Tietze Syndrome in a 41-Year-Old Patient Without Significant Comorbidities. Cureus. 2024;16(5):e59640. PMID: 38832167. doi:10.7759/cureus.59640
+
+5. Kassab M, Katyal A, Franciosi S, Sanatani S. Chest Pain in Children: Is It Another "Growing Pain"? Paediatr Neonatal Pain. 2025;7(1):e70003. PMID: 40134780. doi:10.1002/pne2.70003
+
+6. Shokanov T, Anashev T, Sakhanov I, Shaukhin Y. O-Arm CT-Guided Intercostal Nerve Radiofrequency Ablation for Refractory Tietze's Syndrome: A Case Report. Orthop Res Rev. 2026;18:574131. PMID: 41769042. doi:10.2147/ORR.S574131
