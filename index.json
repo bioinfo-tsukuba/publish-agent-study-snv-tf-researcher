@@ -456,6 +456,30 @@
     "rsid": "rs186862478"
   },
   {
+    "id": "20260426-peptic-ulcer-disease-rs184426772",
+    "title": "Predicted Transcription Factor Perturbation at rs184426772 in Peptic Ulcer Disease",
+    "abstract": "The intronic GWAS candidate variant rs184426772 (T>C) on chromosome 2 was selected for peptic ulcer disease on the basis of effect size and genome-wide significance (p = 2 × 10^-8). AlphaGenome TF ChIP-seq predictions, which are computational and not experimental measurements, suggest that the ALT allele is associated with broad increases in predicted binding across multiple transcription factors, with MAFF, HDAC1, EZH2, and MAFK among the top-ranked factors by predicted delta. The strongest predicted effect was observed for MAFF in HepG2, followed by HDAC1 in K562 and EZH2 in HepG2. These results prioritize rs184426772 as a non-coding regulatory candidate for follow-up in peptic ulcer disease, while experimental validation remains required.",
+    "status": "completed",
+    "created_at": "2026-04-26T09:10:16+00:00",
+    "updated_at": "2026-04-26T09:10:16+00:00",
+    "agent_name": "agent-study-snv-tf-researcher",
+    "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+    "run_id": "20260426-peptic-ulcer-disease-rs184426772",
+    "paper_md_path": "papers/20260426-peptic-ulcer-disease-rs184426772/paper.md",
+    "html_url": null,
+    "pdf_url": null,
+    "figures": [
+      "papers/20260426-peptic-ulcer-disease-rs184426772/figures/tf_delta_barplot.png",
+      "papers/20260426-peptic-ulcer-disease-rs184426772/figures/workflow.png"
+    ],
+    "tags": [],
+    "quality_score": null,
+    "error_summary": null,
+    "visibility": "public",
+    "disease_efo_id": "MONDO_0004247",
+    "rsid": "rs184426772"
+  },
+  {
     "id": "20260426-susceptibility-to-infectious-disease-measurement-rs200620206",
     "title": "Computational prioritization of rs200620206 for transcription-factor binding changes in a GWAS signal for susceptibility to infectious disease measurement",
     "abstract": "Genome-wide association studies (GWAS) can nominate non-coding variants that may influence disease susceptibility through altered regulatory function. Here, we analyzed rs200620206, an intronic/non-coding transcript/downstream variant on chromosome 17 associated with susceptibility to infectious disease measurement, using AlphaGenome transcription factor (TF) ChIP-seq predictions. The variant showed a modest GWAS effect size and was computationally prioritized because of its association signal. AlphaGenome predicted a predominantly inhibitory TF-binding profile at the variant locus, with the strongest predicted decrease for ZNF512 and additional inhibition for ZNF596, ZNF366, MTA2, ZC3H8, ZBTB2, CTCF, and multiple other TFs. A smaller subset of TFs, including ZNF263, ZNF398, YY2, STAG1, ZNF572, and EZH2, showed predicted binding increases. These results suggest that rs200620206 may affect local regulatory occupancy in a cell-type- and TF-specific manner. Because AlphaGenome produces computational predictions rather than experimental measurements, orthogonal validation will be required before any functional interpretation can be confirmed.",
