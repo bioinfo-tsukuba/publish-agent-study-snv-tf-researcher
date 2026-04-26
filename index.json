@@ -168,6 +168,30 @@
     "rsid": "rs1461746208"
   },
   {
+    "id": "20260426-buruli-ulcer-disease-rs76647377",
+    "title": "Computational prioritization of rs76647377 for Buruli ulcer disease using AlphaGenome transcription factor ChIP-seq predictions",
+    "abstract": "Buruli ulcer disease is a neglected tropical skin disease caused by *Mycobacterium ulcerans* and characterized by severe necrotizing lesions [1]. Host genetic susceptibility has been investigated in prior genome-wide analyses, including the association of rs76647377 in *LINC01622* with Buruli ulcer risk [2,3]. Here, we computationally evaluated the non-coding variant rs76647377 (chr6:984961 G>A), which was selected by effect size from the provided run data, using AlphaGenome transcription factor (TF) ChIP-seq prediction outputs. Across the predicted tracks, the ALT allele is associated with broader TF-binding promotion for several factors, especially USF1, USF2, TFE3, TOE1, ZNF146, and RAD51, while other factors such as E2F1, TCF7L2, POLR2AphosphoS5, YY1, ZFX, and EZH2 are predicted to be inhibited. These computational predictions prioritize rs76647377 as a candidate regulatory variant in a locus previously implicated in Buruli ulcer susceptibility [2,3]. Experimental validation is required to determine whether the predicted TF-binding shifts translate into biological effects.",
+    "status": "completed",
+    "created_at": "2026-04-26T09:03:17+00:00",
+    "updated_at": "2026-04-26T09:03:17+00:00",
+    "agent_name": "agent-study-snv-tf-researcher",
+    "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+    "run_id": "20260426-buruli-ulcer-disease-rs76647377",
+    "paper_md_path": "papers/20260426-buruli-ulcer-disease-rs76647377/paper.md",
+    "html_url": null,
+    "pdf_url": null,
+    "figures": [
+      "papers/20260426-buruli-ulcer-disease-rs76647377/figures/tf_delta_barplot.png",
+      "papers/20260426-buruli-ulcer-disease-rs76647377/figures/workflow.png"
+    ],
+    "tags": [],
+    "quality_score": null,
+    "error_summary": null,
+    "visibility": "public",
+    "disease_efo_id": "MONDO_0000327",
+    "rsid": "rs76647377"
+  },
+  {
     "id": "20260426-childhood-onset-asthma-rs1566447",
     "title": "AlphaGenome-Prioritized Transcription Factor Effects for rs1566447 in Childhood Onset Asthma",
     "abstract": "We evaluated the intronic and non-coding transcript variant rs1566447 (C>T; chr9:8376477) as a candidate locus for childhood onset asthma using AlphaGenome transcription factor ChIP-seq predictions. The variant was selected by effect size, so it may be in linkage disequilibrium with the true causal variant. AlphaGenome outputs are computational predictions rather than experimental measurements; therefore, the results should be interpreted as prioritization signals that require laboratory validation. Across the available TF ChIP-seq tracks, the ALT allele was predicted to most strongly promote PKNOX1, PBX2, and MEIS2 binding, while also showing smaller predicted effects on multiple chromatin and transcription-associated factors. In total, the prediction profile suggests a mixed regulatory impact with a predominance of positive deltas for several TFs and isolated inhibitory effects for E2F1, MYC, and EZH2phosphoT487. These predictions provide a compact hypothesis set for follow-up functional assays in the context of childhood onset asthma.",
