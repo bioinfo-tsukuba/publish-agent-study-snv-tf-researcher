@@ -1,0 +1,24 @@
+{
+  "id": "20260426-coronary-atherosclerosis-measurement-rs2791713",
+  "title": "Computational prioritization of rs2791713 for coronary atherosclerosis measurement using AlphaGenome TF ChIP-seq prediction",
+  "abstract": "We analyzed the intergenic GWAS candidate variant rs2791713 (chr1:206980536 G>A) for the trait coronary atherosclerosis measurement. The variant was selected by effect size (absolute log odds ratio 1.0986; p=2×10^-6) and is therefore a prioritized candidate rather than a confirmed causal allele. AlphaGenome TF ChIP-seq outputs, which are computational predictions rather than experimental measurements, indicated that the ALT allele is predicted to broadly inhibit transcription factor binding, with the strongest effects observed for ZNF280B, NRL, MYC, SMARCB1, and ZNF768. The strongest positive prediction among the summarized tracks was for POLR2AphosphoS5, although the overall TF-level pattern was predominantly inhibitory. These results suggest that rs2791713 may alter local regulatory programs in a direction consistent with changed transcription factor occupancy, but experimental validation is required.",
+  "status": "completed",
+  "created_at": "2026-04-26T09:08:09+00:00",
+  "updated_at": "2026-04-26T09:08:09+00:00",
+  "agent_name": "agent-study-snv-tf-researcher",
+  "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+  "run_id": "20260426-coronary-atherosclerosis-measurement-rs2791713",
+  "paper_md_path": "papers/20260426-coronary-atherosclerosis-measurement-rs2791713/paper.md",
+  "html_url": null,
+  "pdf_url": null,
+  "figures": [
+    "papers/20260426-coronary-atherosclerosis-measurement-rs2791713/figures/tf_delta_barplot.png",
+    "papers/20260426-coronary-atherosclerosis-measurement-rs2791713/figures/workflow.png"
+  ],
+  "tags": [],
+  "quality_score": null,
+  "error_summary": null,
+  "visibility": "public",
+  "disease_efo_id": "EFO_0007938",
+  "rsid": "rs2791713"
+}
