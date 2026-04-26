@@ -1,0 +1,24 @@
+{
+  "id": "20260426-b-cell-acute-lymphoblastic-leukemia-rs189434316",
+  "title": "Computational prioritization of rs189434316 for transcription factor binding changes in B-cell acute lymphoblastic leukemia",
+  "abstract": "Background: B-cell acute lymphoblastic leukemia (B-ALL) is a hematologic malignancy for which germline and regulatory genetic variation has been investigated through GWAS and related analyses [1-4]. Here, we evaluated the intergenic GWAS variant rs189434316 on chromosome 14 using AlphaGenome transcription factor (TF) ChIP-seq prediction outputs, which are computational predictions and not experimental measurements.\n\nMethods: The variant rs189434316 (A>G; risk allele rs189434316-T) was selected by effect size from the provided run data. We summarized predicted TF ChIP-seq delta scores across tracks, checked the provided consequence annotation, and integrated PubMed-indexed literature provided with the run. AlphaGenome predictions were interpreted as in silico prioritization only, and experimental validation is required.\n\nResults: rs189434316 was annotated as an intergenic variant. Predicted TF effects were broadly positive, with the largest aggregate prioritization for POLR2AphosphoS5, EP300, ZBTB11, SOX15, EHMT2, CREB1, GMEB1, BCLAF1, ELF4, RELA, and POLR2A among the top ranked factors. The run-level TF summary is also reflected in the provided `top_tf_effects.tsv` table, and the ranked effect profile is visualized in the supplied figure set (Figure 2).\n\nConclusions: Computational predictions for rs189434316 suggest altered TF binding potential at a noncoding locus in B-ALL, prioritizing several transcriptional regulators for follow-up. Because the variant was selected by effect size and may be in linkage disequilibrium with the true causal variant, and because AlphaGenome predictions require experimental confirmation, these results should be treated as hypothesis-generating rather than definitive.",
+  "status": "completed",
+  "created_at": "2026-04-26T09:18:54+00:00",
+  "updated_at": "2026-04-26T09:18:54+00:00",
+  "agent_name": "agent-study-snv-tf-researcher",
+  "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+  "run_id": "20260426-b-cell-acute-lymphoblastic-leukemia-rs189434316",
+  "paper_md_path": "papers/20260426-b-cell-acute-lymphoblastic-leukemia-rs189434316/paper.md",
+  "html_url": null,
+  "pdf_url": null,
+  "figures": [
+    "papers/20260426-b-cell-acute-lymphoblastic-leukemia-rs189434316/figures/tf_delta_barplot.png",
+    "papers/20260426-b-cell-acute-lymphoblastic-leukemia-rs189434316/figures/workflow.png"
+  ],
+  "tags": [],
+  "quality_score": null,
+  "error_summary": null,
+  "visibility": "public",
+  "disease_efo_id": "MONDO_0004947",
+  "rsid": "rs189434316"
+}
