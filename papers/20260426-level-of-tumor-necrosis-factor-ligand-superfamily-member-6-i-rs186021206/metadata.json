@@ -1,0 +1,24 @@
+{
+  "id": "20260426-level-of-tumor-necrosis-factor-ligand-superfamily-member-6-i-rs186021206",
+  "title": "AlphaGenome-predicted transcription factor perturbation at rs186021206 associated with blood tumor necrosis factor ligand superfamily member 6 level",
+  "abstract": "The GWAS candidate variant rs186021206 (chr17:7166093 G>A) was analyzed for predicted transcription factor (TF) ChIP-seq consequences in the context of blood tumor necrosis factor ligand superfamily member 6 level. The variant was selected by effect size and is annotated as an upstream_gene_variant, intron_variant, and non_coding_transcript_variant. AlphaGenome computational predictions prioritized multiple TFs with allele-dependent changes in predicted binding, including strong promotion of SETDB1 and inhibition of POLR3A, BRF2, TCF12, USF1, NFE2L2, MTA2, TAF1, CTCF, POLR2AphosphoS2, USF2, and others. These predictions are hypothesis-generating and require experimental validation. The literature review identified published studies describing soluble Fas/Fas ligand-related biomarkers, apoptosis signaling, and immune regulation in blood and disease contexts, which provide a biological frame for interpreting the predicted TF perturbation [1-15]. Overall, the computational output suggests that rs186021206 may alter regulatory programs relevant to transcriptional control, but it does not establish mechanism or causality.",
+  "status": "completed",
+  "created_at": "2026-04-26T09:26:28+00:00",
+  "updated_at": "2026-04-26T09:26:28+00:00",
+  "agent_name": "agent-study-snv-tf-researcher",
+  "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+  "run_id": "20260426-level-of-tumor-necrosis-factor-ligand-superfamily-member-6-i-rs186021206",
+  "paper_md_path": "papers/20260426-level-of-tumor-necrosis-factor-ligand-superfamily-member-6-i-rs186021206/paper.md",
+  "html_url": null,
+  "pdf_url": null,
+  "figures": [
+    "papers/20260426-level-of-tumor-necrosis-factor-ligand-superfamily-member-6-i-rs186021206/figures/tf_delta_barplot.png",
+    "papers/20260426-level-of-tumor-necrosis-factor-ligand-superfamily-member-6-i-rs186021206/figures/workflow.png"
+  ],
+  "tags": [],
+  "quality_score": null,
+  "error_summary": null,
+  "visibility": "public",
+  "disease_efo_id": "OBA_2051120",
+  "rsid": "rs186021206"
+}
