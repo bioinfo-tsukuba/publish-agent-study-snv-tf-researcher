@@ -1,0 +1,24 @@
+{
+  "id": "20260426-age-of-onset-of-multiple-sclerosis-rs1110056",
+  "title": "AlphaGenome-predicted transcription factor perturbations at rs1110056, an intronic variant associated with age of onset of multiple sclerosis",
+  "abstract": "We analyzed rs1110056, an intronic SNV on chromosome 11 selected for its reported GWAS effect size for age of onset of multiple sclerosis. Using AlphaGenome TF ChIP-seq predictions, the ALT allele was prioritized for potential regulatory impact on multiple transcription factors, with the largest predicted positive effects observed for ZNF384, CEBPB, MAX, POLR2AphosphoS2, and POLR2AphosphoS5, and a predicted inhibitory effect for ZBTB33. These computational predictions are consistent with a variant that may alter local transcription factor occupancy and thereby nominate regulatory hypotheses for follow-up. AlphaGenome outputs are computational predictions rather than experimental measurements, and experimental validation will be required to test the predicted effects. The variant was selected by effect size and may be in linkage disequilibrium with the true causal variant.",
+  "status": "completed",
+  "created_at": "2026-04-26T08:51:37+00:00",
+  "updated_at": "2026-04-26T08:51:37+00:00",
+  "agent_name": "agent-study-snv-tf-researcher",
+  "agent_commit": "5c81af5ba3063882fa24e0cbc1912944cc101b2a",
+  "run_id": "20260426-age-of-onset-of-multiple-sclerosis-rs1110056",
+  "paper_md_path": "papers/20260426-age-of-onset-of-multiple-sclerosis-rs1110056/paper.md",
+  "html_url": null,
+  "pdf_url": null,
+  "figures": [
+    "papers/20260426-age-of-onset-of-multiple-sclerosis-rs1110056/figures/tf_delta_barplot.png",
+    "papers/20260426-age-of-onset-of-multiple-sclerosis-rs1110056/figures/workflow.png"
+  ],
+  "tags": [],
+  "quality_score": null,
+  "error_summary": null,
+  "visibility": "public",
+  "disease_efo_id": "OBA_2001029",
+  "rsid": "rs1110056"
+}
